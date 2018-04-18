@@ -1,0 +1,386 @@
+body{
+font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: -.03em;
+    background-color: white;
+    color: black;
+    margin:0;
+    padding:0;
+    letter-spacing: 0.02em;
+
+  
+}
+
+.about p{
+    width 10%;
+}
+
+h1{
+    font-size: 1.65em;
+    color: black;
+    font-style: oblique;
+
+}
+
+h2, h3 {
+    font-size: 1.7em;
+    margin-left: .7em;
+}
+
+.column p{ 
+margin:2em 3.125%; 
+    }
+
+.bottom {
+    margin-top: 20%;
+    width: 100%;
+    background-color: black;
+    height: 2em;
+    padding: 2em;
+   
+}
+
+.bottom p {
+    color: white;
+}
+
+.contact h1 {
+    width: 80%;
+    font-size: 1.3em;
+    margin-left: 1.3em;
+}
+
+.contact p {
+     
+    margin-left: 3.3em;
+}
+
+.bottom {
+    float: left;
+}
+.bottom p {
+    margin-left: 10px;
+}
+
+.works-content {
+
+}
+/*------------NAVIGATION--------------*/
+/*------------NAVIGATION--------------*/
+
+
+ul.top-nav {
+    list-style-type: none;
+    margin:0;
+    padding:2%;
+    overflow: hidden;
+    background-color: #000C04;
+    padding:1;
+    font-weight: bold;
+    letter-spacing: .09em;
+    font-size: 1.5em;
+}
+ul.top-nav li{
+    float:left;
+    margin:0 2.5% 0 5%;
+}
+ul.top-nav li.icon {
+    display: none;
+}
+
+a:link{
+    color:white;
+    text-decoration:none;
+    }
+
+a:active {
+    color: white;
+    }
+
+a:hover {
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+/*------------NAVIGATION--------------*/
+/*---^^^^^^^^NAVIGATION^^^^^^^^^^--*/
+
+img{
+    width:100%;
+    height:auto;
+}
+
+
+
+/* column split into 2 x 4 */
+.bot-col{
+    margin-left: 3.125%; 
+    padding: 0;
+    width:45.3125%; 
+    float:left;
+ 
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    
+   
+}
+
+h2 {
+    float: left;
+}
+
+
+
+
+/* --------------MOBILE---------------- */ 
+/* --------------MOBILE---------------- */ 
+
+@media only screen and (max-width: 680px) {
+    ul.top-nav li{
+        display: none;
+    }
+    ul.top-nav li.icon {
+        display: inline-block;
+        float: right;
+    }
+    
+     .content-2 {
+      width: 100%;
+     
+    }
+    
+   
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    article.gallery {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+ 
+      
+    
+    #bioh1 {
+    margin-top: 1.2em;
+    margin-bottom: 1.em;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: .3em;        
+    }
+        
+     .inner-portrait p{
+       font-size: .83em;
+         margin-left: .4em;
+         margin-right:  .4em;
+         font-weight: 700;
+         line-height: 1.3em;
+         background-color: #f2f2f2;
+    }
+
+@media only screen and (max-width: 680px) {
+    ul.top-nav.responsive {
+        position:relative;
+    }
+    ul.top-nav.responsive li.icon{
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    ul.top-nav.responsive li{
+        float:none;
+        display: inline;
+    }
+    ul.top-nav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    
+    .column p {
+        display: none;
+    }
+    
+    .bot-col p{
+        display: none;
+    }
+    
+    .gallery {
+        width: 30%;
+    }
+    
+    
+   
+}
+
+
+/* --------------MOBILE---------------- */ 
+/* --------------TABLET---------------- */ 
+
+
+
+@media only screen and (min-width: 681px){
+    body{
+        background-color: #f2f2f2;
+        width: 100%;
+    }
+   
+  
+    
+      .column {
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+        
+}
+
+    .content-2 {
+        margin-left: 5.3em;
+        margin-right: 3.3em;
+           border-style:double;
+        border-color: black;
+    }    
+    .gallery {
+        width: 30%;
+        float: left;
+        margin: 2em .2em .22em 2em;
+     
+    }
+    
+    h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-left: 1em;        
+    }
+    
+
+
+/* BIOGRAPHY */
+ #bioh1 {
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
+     
+    margin-left: -4.5em;     
+    }
+        
+     .inner-portrait p{
+       font-size: 1.83em;
+         margin-left: 1.4em;
+         margin-right:  1.4em;
+         font-weight: 700;
+         line-height: 1.3em;
+         background-color: #f2f2f2;
+    }
+}
+
+
+/* --------------TABLET---------------- */ 
+/* --------------DESKTOP---------------- */ 
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: inherit;
+        width: 100%;
+       
+    }
+    h1{
+        color:black;
+        margin-left: 1.76em;
+    }
+    
+    .column {
+        margin-top: 150px;
+        margin-left: 3.3em;
+        width: 45%;
+        float: left; 
+        margin-bottom: 10px;
+        border-bottom: 7px;
+        border-bottom-style: solid;
+    }
+    
+    .tabloid-quad {
+    
+    }
+    
+    .container {
+        display:inline-block;
+        float: left;
+    
+    }
+  
+    .bot-col {
+        width: 20.83%;
+        margin-left: 3.3em;    
+        margin-top: 3.3em;
+        border-bottom: .3em;
+        border-bottom-style: solid;
+    }
+    
+    article.gallery {
+        width: 22%;
+         height: auto;
+        float: left;
+        margin: 1.8em .2em .22em 2em;
+        
+    }
+    
+    
+
+    
+    h1 {
+        margin-left: 2.2em;
+        margin-top: 2em;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    
+    .content-2 {
+        margin-left: 5.3em;
+        margin-right: 3.3em;
+        border-style: double;
+        border-color: black;
+        border-bottom: double;
+        border-bottom-color: black;
+    }
+    
+    /* BIOGRAPHY */
+ #bioh1 {
+    
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 9.4em;     
+    }
+        
+     .inner-portrait p{
+         width: 60%;
+       font-size: 1.83em;
+         margin-left: 10.4em;
+        font-weight: 700;
+         line-height: 1.3em;
+         background-color: #f2f2f2;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
