@@ -22,22 +22,22 @@ P {
 }
 
 .box-one {
-    background:  url("/images/int%20render.png");
+    background:  url("../images/int%20render.png");
     
 }
 
 .box-two {
-    background:  url("/images/ideation.png");
+    background:  url("../images/ideation.png");
     
 }
 
 .box-three {
-    background:  url("/images/intfinal.png");
+    background:  url("../images/intfinal.png");
     
 }
 
 .box-four {
-    background:  url("/images/initial.png");
+    background:  url("../images/initial.png");
     
 }
 
@@ -101,9 +101,9 @@ h4 {
 
 
 .content-column-banner-g{
-       background-image: url("/images/instructions.png");
+       background-image: url("../images/ISbanner.png");
        background-repeat: no-repeat;
-       height: 500px;
+       height: 700px;
        z-index: 310;
    
     
@@ -351,7 +351,7 @@ a:active {
     padding: 10px;
     float: left;
     border: white;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 

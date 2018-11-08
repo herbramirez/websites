@@ -101,9 +101,10 @@ h4 {
 
 
 .content-column-banner-g{
-       background-image: url("/images/5x5/dayonerender.png");
+       background-image: url("/images/5x5/sunrisebanner.png");
        background-repeat: no-repeat;
-       height: 500px;
+       margin: 0;
+       height: 700px;
        z-index: 310;
    
     
@@ -351,7 +352,7 @@ a:active {
     padding: 10px;
     float: left;
     border: white;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 

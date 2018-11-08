@@ -133,16 +133,6 @@ p, h1, h2, h3{
     padding-right: 1vw;
 }
 
-.col-sm-6{
-    width: 48.6vw;
-    float:left;
-}
-
-.right{
-    margin-right:1vw;
-}
-
-
 a:hover {
   background-color:#efefef;
   opacity: 10%;
